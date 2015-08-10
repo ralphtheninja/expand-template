@@ -1,6 +1,6 @@
 {
   "name": "expand-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Expand placeholders in a template string",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,9 @@
     "test": "tape test.js"
   },
   "keywords": [
-    "template", "expand", "replace"
+    "template",
+    "expand",
+    "replace"
   ],
   "author": "LM <ralphtheninja@riseup.net>",
   "license": "WTFPL",
