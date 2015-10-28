@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/ralphtheninja/expand-template",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js && standard"
   },
   "keywords": [
     "template",
@@ -20,5 +20,8 @@
   "license": "WTFPL",
   "dependencies": {
     "tape": "^4.0.3"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
   }
 }

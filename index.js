@@ -14,5 +14,4 @@ module.exports = function (opts) {
   function regExp (key) {
     return new RegExp('\\' + left + key + '\\' + right, 'g')
   }
-
 }
