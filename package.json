@@ -18,10 +18,9 @@
   ],
   "author": "LM <ralphtheninja@riseup.net>",
   "license": "WTFPL",
-  "dependencies": {
-    "tape": "^4.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "standard": "^5.3.1"
+    "standard": "^5.3.1",
+    "tape": "^4.2.2"
   }
 }
