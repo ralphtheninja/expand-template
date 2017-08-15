@@ -1,5 +1,7 @@
 # expand-template [![Build Status](https://travis-ci.org/ralphtheninja/expand-template.svg?branch=master)](https://travis-ci.org/ralphtheninja/expand-template)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ralphtheninja/expand-template.svg)](https://greenkeeper.io/)
+
 Expand placeholders in a template string.
 
 ## Install
