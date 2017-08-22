@@ -1,6 +1,6 @@
 {
   "name": "expand-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Expand placeholders in a template string",
   "main": "index.js",
   "repository": {
