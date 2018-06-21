@@ -22,5 +22,8 @@
   "devDependencies": {
     "standard": "^11.0.0",
     "tape": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=6"
   }
 }
