@@ -8,7 +8,7 @@ module.exports = function (opts) {
 
   return function (template, values) {
     Object.keys(values).forEach(function (key) {
-      var value = String(values[key]).replace(/\$/, '$$$$')
+      var value = String(values[key]).replace(/\$/g, '$$$$')
       template = template.replace(regExp(key), value)
     })
     return template
