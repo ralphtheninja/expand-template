@@ -45,3 +45,23 @@ test('whitespace-insensitive', function (t) {
   }), 'FOOFOOFOO', 'expands one placeholder many times')
   t.end()
 })
+
+test('dollar escape', function (t) {
+  var expand = Expand()
+  t.equal(expand('before {foo} after', {
+    foo: '$'
+  }), 'before $ after')
+  t.equal(expand('before {foo} after', {
+    foo: '$&'
+  }), 'before $& after')
+  t.equal(expand('before {foo} after', {
+    foo: '$`'
+  }), 'before $` after')
+  t.equal(expand('before {foo} after', {
+    foo: '$\''
+  }), 'before $\' after')
+  t.equal(expand('before {foo} after', {
+    foo: '$0'
+  }), 'before $0 after')
+  t.end()
+})
