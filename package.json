@@ -17,7 +17,7 @@
     "replace"
   ],
   "author": "LM <ralphtheninja@riseup.net>",
-  "license": "WTFPL",
+  "license": "(MIT or WTFPL)",
   "dependencies": {},
   "devDependencies": {
     "standard": "^12.0.0",
