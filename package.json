@@ -20,7 +20,7 @@
   "license": "(MIT OR WTFPL)",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^12.0.0",
+    "standard": "^14.3.2",
     "tape": "^4.2.2"
   },
   "engines": {
